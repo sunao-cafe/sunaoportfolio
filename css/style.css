@@ -1,0 +1,54 @@
+@import url(sanitize.css);
+
+
+body {
+  font-size: 15px;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  background-color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+  color: #3583aa;
+}
+
+  /* レイアウトの指定----------------------------------------*/
+
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+  
+
+.logo {
+  float: left;
+  margin-top: 50px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  float: left;
+  margin: 0 20px;
+  list-style: none;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
